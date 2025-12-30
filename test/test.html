@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: grey;
+        }
+
+        img {
+            width: 450px;
+            height: 300px;
+            cursor: pointer;
+            transition: transform 2s ease, opacity 2s ease;
+        }
+
+        img:hover {
+            transform: rotate(720deg) scale(0);
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <img src="namkhanh.png" alt="NamKhanh">
+</body>
+</html>
